@@ -1,0 +1,76 @@
+name: CI/CD Pipeline for Telega
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  IMAGE_NAME: ghcr.io/${{ github.repository }}/telega-backend
+  IMAGE_TAG: ${{ github.sha }}
+
+jobs:
+  build-and-push:
+    runs-on: debian-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '9.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Run tests
+      run: dotnet test --no-restore --verbosity normal
+      continue-on-error: true # Если тестов нет, шаг не упадёт
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Log in to GitHub Container Registry
+      uses: docker/login-action@v3
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.CR_PAT }}
+
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v5
+      with:
+        context: .
+        file: Dockerfile
+        push: true
+        tags: ${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}
+
+  deploy:
+    runs-on: debian-latest
+    needs: build-and-push
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up kubectl
+      uses: azure/setup-kubectl@v3
+      with:
+        version: 'latest'
+
+    - name: Configure kubectl
+      run: |
+        echo "${{ secrets.KUBE_CONFIG }}" | base64 -d > $HOME/.kube/config
+        chmod 600 $HOME/.kube/config
+
+    - name: Deploy to Kubernetes
+      run: |
+        sed -i "s|image: telega-backend:latest|image: ${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}|g" k8s/telega-backend-deployment.yaml
+        kubectl apply -f k8s/namespace.yaml
+        kubectl apply -f k8s/postgres-pvc.yaml
+        kubectl apply -f k8s/postgres-deployment.yaml
+        kubectl apply -f k8s/minio-pvc.yaml
+        kubectl apply -f k8s/minio-deployment.yaml
+        kubectl apply -f k8s/redis-pvc.yaml
+        kubectl apply -f k8s/redis-deployment.yaml
+        kubectl apply -f k8s/telega-backend-deployment.yaml

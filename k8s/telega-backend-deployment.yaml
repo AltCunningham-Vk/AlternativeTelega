@@ -16,7 +16,7 @@ spec:
       containers:
       - name: telega-backend
         image: telega-backend:latest
-        imagePullPolicy: Never # Для локального образа
+        imagePullPolicy: Always # Для локального образа
         env:
         - name: ASPNETCORE_URLS
           value: http://+:8080
