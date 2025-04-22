@@ -1,0 +1,15 @@
+C:\Users\vladk\source\repos\Telega\Telega.Application\bin\Debug\net9.0\Telega.Application.deps.json
+C:\Users\vladk\source\repos\Telega\Telega.Application\bin\Debug\net9.0\Telega.Application.dll
+C:\Users\vladk\source\repos\Telega\Telega.Application\bin\Debug\net9.0\Telega.Application.pdb
+C:\Users\vladk\source\repos\Telega\Telega.Application\bin\Debug\net9.0\Telega.Domain.dll
+C:\Users\vladk\source\repos\Telega\Telega.Application\bin\Debug\net9.0\Telega.Domain.pdb
+C:\Users\vladk\source\repos\Telega\Telega.Application\obj\Debug\net9.0\Telega.Application.csproj.AssemblyReference.cache
+C:\Users\vladk\source\repos\Telega\Telega.Application\obj\Debug\net9.0\Telega.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladk\source\repos\Telega\Telega.Application\obj\Debug\net9.0\Telega.Application.AssemblyInfoInputs.cache
+C:\Users\vladk\source\repos\Telega\Telega.Application\obj\Debug\net9.0\Telega.Application.AssemblyInfo.cs
+C:\Users\vladk\source\repos\Telega\Telega.Application\obj\Debug\net9.0\Telega.Application.csproj.CoreCompileInputs.cache
+C:\Users\vladk\source\repos\Telega\Telega.Application\obj\Debug\net9.0\Telega.A.7606E4D1.Up2Date
+C:\Users\vladk\source\repos\Telega\Telega.Application\obj\Debug\net9.0\Telega.Application.dll
+C:\Users\vladk\source\repos\Telega\Telega.Application\obj\Debug\net9.0\refint\Telega.Application.dll
+C:\Users\vladk\source\repos\Telega\Telega.Application\obj\Debug\net9.0\Telega.Application.pdb
+C:\Users\vladk\source\repos\Telega\Telega.Application\obj\Debug\net9.0\ref\Telega.Application.dll

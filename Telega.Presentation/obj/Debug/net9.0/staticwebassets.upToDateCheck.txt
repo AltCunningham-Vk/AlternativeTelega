@@ -1,0 +1,2 @@
+C:\Users\vladk\source\repos\Telega\Telega.Presentation\wwwroot\index.html
+wwwroot\index.html

@@ -1,0 +1,41 @@
+# Папки сборки
+bin/
+obj/
+
+# Временные файлы Visual Studio
+*.user
+*.suo
+*.cache
+*.sln.docstates
+
+# NuGet и кэш
+packages/
+nuget/
+.paket/
+.fake/
+
+# Логи и временные данные
+logs/
+*.log
+*.tmp
+
+# Docker и CI/CD
+.docker/
+.github/
+.gitlab/
+.vscode/
+.idea/
+
+
+# Тестовые файлы
+test/
+tests/
+*.Test/
+*.Tests/
+
+# Документация и прочее
+docs/
+node_modules/
+dist/
+out/
+coverage/

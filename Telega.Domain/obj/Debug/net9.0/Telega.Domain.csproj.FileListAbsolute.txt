@@ -1,0 +1,11 @@
+C:\Users\vladk\source\repos\Telega\Telega.Domain\bin\Debug\net9.0\Telega.Domain.deps.json
+C:\Users\vladk\source\repos\Telega\Telega.Domain\bin\Debug\net9.0\Telega.Domain.dll
+C:\Users\vladk\source\repos\Telega\Telega.Domain\bin\Debug\net9.0\Telega.Domain.pdb
+C:\Users\vladk\source\repos\Telega\Telega.Domain\obj\Debug\net9.0\Telega.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladk\source\repos\Telega\Telega.Domain\obj\Debug\net9.0\Telega.Domain.AssemblyInfoInputs.cache
+C:\Users\vladk\source\repos\Telega\Telega.Domain\obj\Debug\net9.0\Telega.Domain.AssemblyInfo.cs
+C:\Users\vladk\source\repos\Telega\Telega.Domain\obj\Debug\net9.0\Telega.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vladk\source\repos\Telega\Telega.Domain\obj\Debug\net9.0\Telega.Domain.dll
+C:\Users\vladk\source\repos\Telega\Telega.Domain\obj\Debug\net9.0\refint\Telega.Domain.dll
+C:\Users\vladk\source\repos\Telega\Telega.Domain\obj\Debug\net9.0\Telega.Domain.pdb
+C:\Users\vladk\source\repos\Telega\Telega.Domain\obj\Debug\net9.0\ref\Telega.Domain.dll

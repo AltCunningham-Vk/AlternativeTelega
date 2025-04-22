@@ -1,0 +1,17 @@
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\bin\Debug\net9.0\Telega.Infrastructure.deps.json
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\bin\Debug\net9.0\Telega.Infrastructure.dll
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\bin\Debug\net9.0\Telega.Infrastructure.pdb
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\bin\Debug\net9.0\Telega.Application.dll
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\bin\Debug\net9.0\Telega.Domain.dll
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\bin\Debug\net9.0\Telega.Application.pdb
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\bin\Debug\net9.0\Telega.Domain.pdb
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\obj\Debug\net9.0\Telega.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\obj\Debug\net9.0\Telega.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\obj\Debug\net9.0\Telega.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\obj\Debug\net9.0\Telega.Infrastructure.AssemblyInfo.cs
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\obj\Debug\net9.0\Telega.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\obj\Debug\net9.0\Telega.I.EB804D66.Up2Date
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\obj\Debug\net9.0\Telega.Infrastructure.dll
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\obj\Debug\net9.0\refint\Telega.Infrastructure.dll
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\obj\Debug\net9.0\Telega.Infrastructure.pdb
+C:\Users\vladk\source\repos\Telega\Telega.Infrastructure\obj\Debug\net9.0\ref\Telega.Infrastructure.dll

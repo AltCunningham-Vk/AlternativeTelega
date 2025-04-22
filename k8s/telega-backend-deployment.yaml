@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: telega-backend
+  namespace: telega
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: telega-backend
+  template:
+    metadata:
+      labels:
+        app: telega-backend
+    spec:
+      containers:
+      - name: telega-backend
+        image: telega-backend:latest
+        imagePullPolicy: Never # Для локального образа
+        env:
+        - name: ASPNETCORE_URLS
+          value: http://+:8080
+        - name: ConnectionStrings__DefaultConnection
+          value: Host=postgres;Port=5432;Database=telega;Username=postgres;Password=12345
+        - name: Minio__Endpoint
+          value: minio:9000
+        - name: Minio__AccessKey
+          value: minioadmin
+        - name: Minio__SecretKey
+          value: minioadmin
+        - name: Minio__Secure
+          value: "false"
+        - name: Redis__ConnectionString
+          value: redis:6379
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: telega-backend
+  namespace: telega
+spec:
+  selector:
+    app: telega-backend
+  ports:
+  - port: 8080
+    targetPort: 8080
+  type: NodePort

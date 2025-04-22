@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Telega Chat</title>
+</head>
+<body>
+    <div id="auth" style="display: block;">
+        <input type="text" id="loginOrEmail" placeholder="Login or Email" />
+        <input type="password" id="password" placeholder="Password" />
+        <button onclick="login()">Login</button>
+    </div>
+    <div id="chat" style="display: none;">
+        <div>
+            <input type="text" id="chatId" placeholder="Chat ID" />
+            <button onclick="joinChat()">Join Chat</button>
+            <button onclick="leaveChat()">Leave Chat</button>
+        </div>
+        <div>
+            <input type="text" id="message" placeholder="Message" />
+            <input type="text" id="timeToLive" placeholder="Time to live (e.g., 00:00:30)" />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+        <div>
+            <input type="text" id="broadcastChatIds" placeholder="Chat IDs (comma-separated)" />
+            <button onclick="broadcastMessage()">Broadcast</button>
+        </div>
+        <ul id="messages"></ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.min.js"></script>
+    <script>
+        let jwtToken = localStorage.getItem("jwtToken") || null;
+        let connection = null;
+
+        if (jwtToken) {
+            setupSignalR();
+            showChat();
+        }
+
+        async function login() {
+            const loginOrEmail = document.getElementById("loginOrEmail").value;
+            const password = document.getElementById("password").value;
+
+            const response = await fetch(`/api/Auth/login`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ loginOrEmail, password })
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                jwtToken = data.token;
+                localStorage.setItem("jwtToken", jwtToken);
+                setupSignalR();
+                showChat();
+            } else {
+                console.error("Login failed:", await response.text());
+                alert("Login failed. Check credentials.");
+            }
+        }
+
+        function setupSignalR() {
+            connection = new signalR.HubConnectionBuilder()
+                .withUrl("/chatHub", { accessTokenFactory: () => jwtToken })
+                .configureLogging(signalR.LogLevel.Information)
+                .build();
+
+            connection.on("ReceiveMessage", (message) => {
+                const li = document.createElement("li");
+                li.textContent = `${message.senderId}: ${message.content} (${message.isRead ? "read" : "unread"})`;
+                li.dataset.messageId = message.id;
+                document.getElementById("messages").appendChild(li);
+            });
+
+            connection.on("MessageRead", (message) => {
+                const items = document.getElementById("messages").getElementsByTagName("li");
+                for (let item of items) {
+                    if (item.dataset.messageId === message.id.toString()) {
+                        item.textContent = `${message.senderId}: ${message.content} (read)`;
+                    }
+                }
+            });
+
+            connection.on("MessageRemoved", (messageId) => {
+                const items = document.getElementById("messages").getElementsByTagName("li");
+                for (let item of items) {
+                    if (item.dataset.messageId === messageId.toString()) {
+                        item.remove();
+                    }
+                }
+            });
+
+            start();
+        }
+
+        async function start() {
+            try {
+                await connection.start();
+                console.log("Connected to SignalR hub");
+            } catch (err) {
+                console.error(err);
+                setTimeout(start, 5000);
+            }
+        }
+
+        connection && connection.onclose(async () => {
+            await start();
+        });
+
+        async function joinChat() {
+            const chatId = document.getElementById("chatId").value;
+            await connection.invoke("JoinChat", chatId);
+            console.log(`Joined chat ${chatId}`);
+        }
+
+        async function leaveChat() {
+            const chatId = document.getElementById("chatId").value;
+            await connection.invoke("LeaveChat", chatId);
+            console.log(`Left chat ${chatId}`);
+        }
+
+        async function sendMessage() {
+            const chatId = document.getElementById("chatId").value;
+            const content = document.getElementById("message").value;
+            const timeToLive = document.getElementById("timeToLive").value || null;
+
+            const messageData = {
+                chatId,
+                content,
+                contentType: "Text"
+            };
+
+            if (timeToLive && timeToLive !== "string") {
+                messageData.timeToLive = timeToLive;
+            }
+
+            const response = await fetch(`/api/Message/text`, {
+                method: "POST",
+                headers: {
+                    "Authorization": `Bearer ${jwtToken}`,
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(messageData)
+            });
+
+            if (response.ok) {
+                document.getElementById("message").value = "";
+                document.getElementById("timeToLive").value = "";
+            } else {
+                console.error("Failed to send message:", await response.text());
+            }
+        }
+        async function broadcastMessage() {
+            const chatIds = document.getElementById("broadcastChatIds").value.split(",").map(id => id.trim());
+            const content = document.getElementById("message").value;
+            const timeToLive = document.getElementById("timeToLive").value || null;
+
+            const messageData = {
+                chatIds,
+                content,
+                contentType: "Text"
+            };
+
+            if (timeToLive && timeToLive !== "string") {
+                messageData.timeToLive = timeToLive;
+            }
+
+            const response = await fetch(`/api/Message/broadcast`, {
+                method: "POST",
+                headers: {
+                    "Authorization": `Bearer ${jwtToken}`,
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(messageData)
+            });
+
+            if (response.ok) {
+                document.getElementById("message").value = "";
+                document.getElementById("timeToLive").value = "";
+                document.getElementById("broadcastChatIds").value = "";
+            } else {
+                console.error("Failed to broadcast message:", await response.text());
+            }
+        }
+        async function sendMultipleMedia() {
+            const chatId = document.getElementById("chatId").value;
+            const files = document.getElementById("mediaFiles").files;
+            const timeToLive = document.getElementById("timeToLive").value || null;
+
+            if (!files.length) {
+                alert("Please select at least one file.");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("ChatId", chatId);
+            for (let i = 0; i < files.length; i++) {
+                formData.append("Files", files[i]);
+            }
+            if (timeToLive && timeToLive !== "string") {
+                formData.append("TimeToLive", timeToLive);
+            }
+
+            const response = await fetch(`/api/Message/media/multiple`, {
+                method: "POST",
+                headers: {
+                    "Authorization": `Bearer ${jwtToken}`
+                },
+                body: formData
+            });
+
+            if (response.ok) {
+                document.getElementById("mediaFiles").value = "";
+                document.getElementById("timeToLive").value = "";
+            } else {
+                console.error("Failed to send media:", await response.text());
+            }
+        }
+        async function loadMessages() {
+            const chatId = document.getElementById("chatId").value;
+            const page = document.getElementById("page").value;
+            const pageSize = document.getElementById("pageSize").value;
+
+            const response = await fetch(`/api/Message/${chatId}?page=${page}&pageSize=${pageSize}`, {
+                headers: {
+                    "Authorization": `Bearer ${jwtToken}`
+                }
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                const messagesList = document.getElementById("messages");
+                messagesList.innerHTML = "";
+                data.messages.forEach(message => {
+                    const li = document.createElement("li");
+                    li.textContent = `${message.senderId}: ${message.content} (${message.isRead ? "read" : "unread"})`;
+                    li.dataset.messageId = message.id;
+                    messagesList.appendChild(li);
+                });
+                console.log(`Total messages: ${data.totalCount}, Pages: ${data.totalPages}`);
+            } else {
+                console.error("Failed to load messages:", await response.text());
+            }
+        }
+
+        function showChat() {
+            document.getElementById("auth").style.display = "none";
+            document.getElementById("chat").style.display = "block";
+        }
+    </script>
+</body>
+</html>

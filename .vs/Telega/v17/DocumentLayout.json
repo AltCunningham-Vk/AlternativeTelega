@@ -1,0 +1,805 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vladk\\source\\repos\\Telega\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|solutionrelative:telega.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\storage\\minioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\storage\\minioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\storage\\iminioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\storage\\iminioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.presentation\\telega.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|solutionrelative:telega.presentation\\telega.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\telega.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\telega.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|solutionrelative:telega.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A173422-947A-D5E4-87CF-2CCD6293E1C6}|Telega.Tests\\Telega.Tests.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.tests\\telega.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A173422-947A-D5E4-87CF-2CCD6293E1C6}|Telega.Tests\\Telega.Tests.csproj|solutionrelative:telega.tests\\telega.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\repositories\\chatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\repositories\\chatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\telega.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\telega.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|solutionrelative:telega.presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\services\\expiredmessagecleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\services\\expiredmessagecleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.presentation\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|solutionrelative:telega.presentation\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.presentation\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|solutionrelative:telega.presentation\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.presentation\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|solutionrelative:telega.presentation\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|solutionrelative:telega.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\repositories\\ichatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\repositories\\ichatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\services\\ichatnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\services\\ichatnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\dtos\\dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\dtos\\dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\repositories\\imessageauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\repositories\\imessageauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\services\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\services\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\caching\\rediscacheservi\u0441e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\caching\\rediscacheservi\u0441e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.domain\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|solutionrelative:telega.domain\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A173422-947A-D5E4-87CF-2CCD6293E1C6}|Telega.Tests\\Telega.Tests.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.tests\\messageservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A173422-947A-D5E4-87CF-2CCD6293E1C6}|Telega.Tests\\Telega.Tests.csproj|solutionrelative:telega.tests\\messageservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A173422-947A-D5E4-87CF-2CCD6293E1C6}|Telega.Tests\\Telega.Tests.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.tests\\integration\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A173422-947A-D5E4-87CF-2CCD6293E1C6}|Telega.Tests\\Telega.Tests.csproj|solutionrelative:telega.tests\\integration\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.domain\\entities\\chatmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|solutionrelative:telega.domain\\entities\\chatmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\services\\iencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\services\\iencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\services\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\services\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|solutionrelative:telega.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.domain\\entities\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|solutionrelative:telega.domain\\entities\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|solutionrelative:telega.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.presentation\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|solutionrelative:telega.presentation\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.presentation\\services\\chatnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39D3B03-1092-46F6-8148-043550AC6C12}|Telega.Presentation\\Telega.Presentation.csproj|solutionrelative:telega.presentation\\services\\chatnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.domain\\entities\\messageauditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|solutionrelative:telega.domain\\entities\\messageauditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\repositories\\messageauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\repositories\\messageauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\caching\\irediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\caching\\irediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.application\\services\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF0750-5F27-4474-B605-C28EE06E3E18}|Telega.Application\\Telega.Application.csproj|solutionrelative:telega.application\\services\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.domain\\telega.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F54EC491-6885-4178-A5D5-A30E257A851A}|Telega.Domain\\Telega.Domain.csproj|solutionrelative:telega.domain\\telega.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|c:\\users\\vladk\\source\\repos\\telega\\telega.infrastructure\\utilities\\aesencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A931298-C8BC-4E28-A4EF-2AC1C03B17BA}|Telega.Infrastructure\\Telega.Infrastructure.csproj|solutionrelative:telega.infrastructure\\utilities\\aesencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Telega.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Program.cs",
+              "RelativeToolTip": "Telega.Presentation\\Program.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAhwDwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T13:09:10.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "Telega.Presentation\\appsettings.json",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\appsettings.json",
+              "RelativeToolTip": "Telega.Presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-30T13:11:23.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMinioService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Storage\\IMinioService.cs",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Storage\\IMinioService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Storage\\IMinioService.cs",
+              "RelativeToolTip": "Telega.Infrastructure\\Storage\\IMinioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T15:12:56.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Telega.Presentation.csproj",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Telega.Presentation.csproj",
+              "RelativeDocumentMoniker": "Telega.Presentation\\Telega.Presentation.csproj",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Telega.Presentation.csproj",
+              "RelativeToolTip": "Telega.Presentation\\Telega.Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-30T11:06:24.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Telega.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Telega.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Telega.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Telega.Infrastructure.csproj",
+              "RelativeToolTip": "Telega.Infrastructure\\Telega.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-30T11:06:10.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Telega.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:40:00.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Repositories\\ChatRepository.cs",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Repositories\\ChatRepository.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Repositories\\ChatRepository.cs",
+              "RelativeToolTip": "Telega.Infrastructure\\Repositories\\ChatRepository.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswCYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:49:15.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Telega.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Telega.Application.csproj",
+              "RelativeDocumentMoniker": "Telega.Application\\Telega.Application.csproj",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Telega.Application.csproj",
+              "RelativeToolTip": "Telega.Application\\Telega.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-30T11:06:29.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MinioService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Storage\\MinioService.cs",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Storage\\MinioService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Storage\\MinioService.cs",
+              "RelativeToolTip": "Telega.Infrastructure\\Storage\\MinioService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T14:05:58.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAtwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-15T14:52:45.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Telega.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Tests\\Telega.Tests.csproj",
+              "RelativeDocumentMoniker": "Telega.Tests\\Telega.Tests.csproj",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Tests\\Telega.Tests.csproj",
+              "RelativeToolTip": "Telega.Tests\\Telega.Tests.csproj",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-07T12:44:10.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Telega.Presentation\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\wwwroot\\index.html",
+              "RelativeToolTip": "Telega.Presentation\\wwwroot\\index.html",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAqwP0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-06T16:24:31.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "Telega.Presentation\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "Telega.Presentation\\Controllers\\MessageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:39:40.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Telega.Presentation\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Telega.Presentation\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T09:45:36.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Telega.Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Telega.Presentation\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:28:05.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Telega.Presentation\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Telega.Presentation\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T17:15:43.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExpiredMessageCleanupService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Services\\ExpiredMessageCleanupService.cs",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Services\\ExpiredMessageCleanupService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Services\\ExpiredMessageCleanupService.cs",
+              "RelativeToolTip": "Telega.Infrastructure\\Services\\ExpiredMessageCleanupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:00:11.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Services\\MessageService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\MessageService.cs",
+              "RelativeToolTip": "Telega.Application\\Services\\MessageService.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAYwJIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:17:48.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Telega.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T11:25:51.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IChatNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IChatNotificationService.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Services\\IChatNotificationService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IChatNotificationService.cs",
+              "RelativeToolTip": "Telega.Application\\Services\\IChatNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:06:27.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IChatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Repositories\\IChatRepository.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Repositories\\IChatRepository.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Repositories\\IChatRepository.cs",
+              "RelativeToolTip": "Telega.Application\\Repositories\\IChatRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:35:47.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Repositories\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Repositories\\MessageRepository.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Repositories\\MessageRepository.cs",
+              "RelativeToolTip": "Telega.Infrastructure\\Repositories\\MessageRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:52:41.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IMessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Repositories\\IMessageRepository.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Repositories\\IMessageRepository.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Repositories\\IMessageRepository.cs",
+              "RelativeToolTip": "Telega.Application\\Repositories\\IMessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:38:43.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DTO.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\DTOs\\DTO.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\DTOs\\DTO.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\DTOs\\DTO.cs",
+              "RelativeToolTip": "Telega.Application\\DTOs\\DTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA4wBMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T11:19:31.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IMessageService.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Services\\IMessageService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IMessageService.cs",
+              "RelativeToolTip": "Telega.Application\\Services\\IMessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:18:01.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Telega.Application\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:32:48.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IMessageAuditLogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Repositories\\IMessageAuditLogRepository.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Repositories\\IMessageAuditLogRepository.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Repositories\\IMessageAuditLogRepository.cs",
+              "RelativeToolTip": "Telega.Application\\Repositories\\IMessageAuditLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:29:27.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\ICacheService.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Services\\ICacheService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\ICacheService.cs",
+              "RelativeToolTip": "Telega.Application\\Services\\ICacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:25:37.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Telega.Application\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T11:24:08.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Services\\ChatService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\ChatService.cs",
+              "RelativeToolTip": "Telega.Application\\Services\\ChatService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswDAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:04:29.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RedisCacheServi\u0441e.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Caching\\RedisCacheServi\u0441e.cs",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Caching\\RedisCacheServi\u0441e.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Caching\\RedisCacheServi\u0441e.cs",
+              "RelativeToolTip": "Telega.Infrastructure\\Caching\\RedisCacheServi\u0441e.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T10:43:55.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\Message.cs",
+              "RelativeDocumentMoniker": "Telega.Domain\\Entities\\Message.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\Message.cs",
+              "RelativeToolTip": "Telega.Domain\\Entities\\Message.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAxwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:31:33.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MessageServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Tests\\MessageServiceTests.cs",
+              "RelativeDocumentMoniker": "Telega.Tests\\MessageServiceTests.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Tests\\MessageServiceTests.cs",
+              "RelativeToolTip": "Telega.Tests\\MessageServiceTests.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwIUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:44:23.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Tests\\Integration\\IntegrationTests.cs",
+              "RelativeDocumentMoniker": "Telega.Tests\\Integration\\IntegrationTests.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Tests\\Integration\\IntegrationTests.cs",
+              "RelativeToolTip": "Telega.Tests\\Integration\\IntegrationTests.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwGMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:24:50.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IFileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IFileStorageService.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Services\\IFileStorageService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IFileStorageService.cs",
+              "RelativeToolTip": "Telega.Application\\Services\\IFileStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:26:06.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ChatMember.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\ChatMember.cs",
+              "RelativeDocumentMoniker": "Telega.Domain\\Entities\\ChatMember.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\ChatMember.cs",
+              "RelativeToolTip": "Telega.Domain\\Entities\\ChatMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwB8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:26:59.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IEncryptionService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IEncryptionService.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Services\\IEncryptionService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IEncryptionService.cs",
+              "RelativeToolTip": "Telega.Application\\Services\\IEncryptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:03:05.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Telega.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Telega.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:03:52.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\Chat.cs",
+              "RelativeDocumentMoniker": "Telega.Domain\\Entities\\Chat.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\Chat.cs",
+              "RelativeToolTip": "Telega.Domain\\Entities\\Chat.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:21:18.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Telega.Presentation\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Telega.Presentation\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:56:52.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ChatNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Services\\ChatNotificationService.cs",
+              "RelativeDocumentMoniker": "Telega.Presentation\\Services\\ChatNotificationService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Presentation\\Services\\ChatNotificationService.cs",
+              "RelativeToolTip": "Telega.Presentation\\Services\\ChatNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:17:52.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Telega.Domain\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Telega.Domain\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:02:08.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MessageAuditLogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Repositories\\MessageAuditLogRepository.cs",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Repositories\\MessageAuditLogRepository.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Repositories\\MessageAuditLogRepository.cs",
+              "RelativeToolTip": "Telega.Infrastructure\\Repositories\\MessageAuditLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:30:43.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MessageAuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\MessageAuditLog.cs",
+              "RelativeDocumentMoniker": "Telega.Domain\\Entities\\MessageAuditLog.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Entities\\MessageAuditLog.cs",
+              "RelativeToolTip": "Telega.Domain\\Entities\\MessageAuditLog.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:26:45.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Telega.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:49:48.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IRedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Caching\\IRedisCacheService.cs",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Caching\\IRedisCacheService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Caching\\IRedisCacheService.cs",
+              "RelativeToolTip": "Telega.Infrastructure\\Caching\\IRedisCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T10:51:32.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IChatService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IChatService.cs",
+              "RelativeDocumentMoniker": "Telega.Application\\Services\\IChatService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Application\\Services\\IChatService.cs",
+              "RelativeToolTip": "Telega.Application\\Services\\IChatService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:02:10.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Telega.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Telega.Domain.csproj",
+              "RelativeDocumentMoniker": "Telega.Domain\\Telega.Domain.csproj",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Domain\\Telega.Domain.csproj",
+              "RelativeToolTip": "Telega.Domain\\Telega.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-30T11:06:15.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AesEncryptionService.cs",
+              "DocumentMoniker": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Utilities\\AesEncryptionService.cs",
+              "RelativeDocumentMoniker": "Telega.Infrastructure\\Utilities\\AesEncryptionService.cs",
+              "ToolTip": "C:\\Users\\vladk\\source\\repos\\Telega\\Telega.Infrastructure\\Utilities\\AesEncryptionService.cs",
+              "RelativeToolTip": "Telega.Infrastructure\\Utilities\\AesEncryptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:05:17.328Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
